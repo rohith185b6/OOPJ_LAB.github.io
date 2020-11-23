@@ -934,6 +934,46 @@ class FCR
 		</ul>
 		<br>
 		</li>
+
+		<li class="menu">
+			<article style="color: red;font-size: 18px;">/*New program is Added in the record , After Static Blocks program i.e, After 11th program*/</article>
+			<a style="cursor: pointer;">Write a java program to explain Constructor?</a>
+			<br><br>
+			<ul>
+				<a style="margin-top: 20px;">Program :</a>
+				<?prettify linenums=01?>
+				<pre class="prettyprint" style="margin-top:15px;">
+import java.io.*;
+import java.util.*;
+class Constructor_Demo
+{
+	int value1 , value2;
+	Constructor_Demo()
+	{
+		value1 = 10;
+		value2 = 20;
+		System.out.println("Inside Constructor");
+	}
+	public void display()
+	{
+		System.out.println("value1 =="+value1);
+		System.out.println("value2 =="+value2);
+	}
+	public static void main(String a[])
+	{
+		Constructor_Demo c = new Constructor_Demo();
+		c.display();
+	}
+}						
+				</pre>
+		</ul>
+			<ul>
+			<a>Output :</a>
+			<br>
+			<img src="12.1/o12.1.png" style="margin-top: 10px;"></img>
+		</ul>
+		<br>
+		</li>		
 	</ol>
 		</frame>
 	</div>
