@@ -11,7 +11,7 @@
 	<!--prettify skin themes: default, desert, sunburst, son-of-obsidian, droxy -->
 </head>
 <body>
-	<div class="header" style="background-color: #2f3742;
+	<div class="header1" style="background-color: #2f3742;
     color: #dfe0e4;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-top: -4%;">
 
@@ -23,12 +23,44 @@
 	
 		<img src="images/java2.png" style="width:8%;height:5%;left:85%;top:0%;position:relative;background-color:#FFD700;padding:10px;display: content;border: 2px solid #000080;cursor: pointer;">		
 	</div>
-	<div class="container" style="margin-left: 15px;">
+<form class="header">
+	<ul>
+		<section id="sec0">
+			<a class="menu">PROGRAM LIST :</a>
+			<br>
+		</section>
+			<br>
+			<li><a href="#sec1">&nbsp;1.&nbsp;Write a java program to find greatest among 3 given numbers ?&nbsp;</a></li>
+			<li><a href="#sec2">&nbsp;2.&nbsp;Write a java program to print fibonacci series?&nbsp;</a></li>
+			<li><a href="#sec3">&nbsp;3.&nbsp;Write a java program to check wether the given number is prime or not ?&nbsp;</a></li>
+			<li><a href="#sec4">&nbsp;4.&nbsp;Write a java program to print prime numbers upto a given number ?&nbsp;</a></li>
+			<li><a href="#sec5">&nbsp;5.&nbsp;Write a java program to print Armstrong number from a range?&nbsp;</a></li>
+			<li><a href="#sec6">&nbsp;6.&nbsp;Write a java program to check wether the given number is a palindrome or not ?&nbsp;</a></li>
+			<li><a href="#sec7">&nbsp;7.&nbsp;Write a java program to print factorial of a given number ?&nbsp;</a></li>
+			<li><a href="#sec8">&nbsp;8.&nbsp;Write a java pragram to print sum of digits in a given number ?&nbsp;</a></li>
+			<li><a href="#sec9">&nbsp;9.&nbsp;Write a java program to perform sum of n natural numbers upto a given number ?&nbsp;</a></li>
+			<li><a href="#sec10">&nbsp;10.&nbsp;Write a java program that takes 5 numbers as inputs each number between 10 & 100. As each number is read, display it only if it is not a duplicate of any number already read . Display the complete set of unique values  after the user enters each new value ?&nbsp;</a></li>
+			<li><a href="#sec11">&nbsp;11.&nbsp;Write a java program to explain static blocks ?&nbsp;</a></li>
+			<li><a href="#sec12">&nbsp;12.&nbsp;Write a java program to explain about constructors ?&nbsp;</a></li>
+			<li><a href="#sec13">&nbsp;13.&nbsp;Write a java program to explain about constructor overload ?&nbsp;</a></li>
+			<li><a href="#sec14">&nbsp;14.&nbsp;Write a java program to explain about method overloading ?&nbsp;</a></li>
+			<li><a href="#sec15">&nbsp;15.&nbsp;Write a java program to perform matrix multiplication?&nbsp;</a></li>
+			<li><a href="#sec16">&nbsp;16.&nbsp;Write a java program to perform inheritance ?&nbsp;</a></li>
+			<li><a href="#sec17">&nbsp;17.&nbsp;Write a java program to create a super class called figure, that receives the dimensions of 2 dimentional objects .It also ddefines a method called Area . That computes the area of an  object. The program derives 2 subclasses from figure. The first is rectangle and second is Triangle. Each of the subclasses override area method, so that, it returns the area of a rectangle and triangle respectively ?&nbsp;</a></li>
+			<li><a href="#sec18">&nbsp;18.&nbsp;Write a java program to perform push, pop, display operations on a stack ?&nbsp;</a></li>
+			<li><a href="#sec19">&nbsp;19.&nbsp;Write a java program to perform factorial of a number using recursion ?&nbsp;</a></li>
+		
+	</ul>
+	</form>
+
+	<div class="container">
 		<frame>	
 		<ol type = "1" style="font-weight: bold;">
+		
+		<section id="sec1" data-text="section 1">
 		<li class="menu">
-			<a style="cursor: pointer;font:bold;
-    font-weight: bold;font-family: caurier;
+			<a style="cursor: pointer;" Style="font:bold;
+    font-weight: bold;
     font-size: 22px;">Write a java program to find greatest among 3 given numbers?</a>
 			<br><br>
 			<ul>
@@ -72,7 +104,13 @@ class Biggest_number
 		</ul>
 		<br>
 	</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec2" data-text="section 2">
 	<li class="menu">
 		<a style="cursor: pointer;">Write a java program to print fibonacci series?</a>
 		<br><br>
@@ -109,13 +147,19 @@ class Fibonacci
 		</ul>
 		<br>
 	</li>
-		
-		<li class="menu">
-			<a style="cursor: pointer;">Write a java program to check wether the given number is prime or not?</a><br><br>
-			<ul>
-				<a style="margin-top: 20px;">Program :</a>
-				<?prettify linenums=01?>
-				<pre class="prettyprint" style="margin-top:15px;align:left;">
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
+
+	<section id="sec3" data-text="section 3">
+	<li class="menu">
+		<a style="cursor: pointer;">Write a java program to check wether the given number is prime or not?</a><br><br>
+		<ul>
+			<a style="margin-top: 20px;">Program :</a>
+			<?prettify linenums=01?>
+			<pre class="prettyprint" style="margin-top:15px;align:left;">
 import java.io.*;
 import java.util.*;
 class Prime
@@ -136,16 +180,22 @@ class Prime
 				System.out.println("enterd number "+a+" is not a Prime Number");	
 	}
 }
-				</pre>
-			</ul>
-			<ul>
-			<a>Output :</a>
-			<br>
-			<img src="3/o3.png" style="margin-top: 10px;"></img>
+			</pre>
 		</ul>
+		<ul>
+		<a>Output :</a>
 		<br>
-		</li>
-		
+		<img src="3/o3.png" style="margin-top: 10px;"></img>
+	</ul>
+	<br>
+	</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>	
+	<br>
+
+		<section id="sec4" data-text="section 4">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to print prime numbers upto a given number?</a>
 			<br><br>
@@ -182,8 +232,14 @@ class Prime_series
 			<img src="4/o4.png" style="margin-top: 10px;"></img>
 		</ul>
 		<br>
-	</li>			
-		
+	</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
+
+	<section id="sec5" data-text="section 5">	
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to print Armstrong number from a range?</a>
 			<br><br>
@@ -227,7 +283,13 @@ class Armstrong
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec6" data-text="section 6">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to check wether the given number is a palindrome or not?</a>
 			<br><br>
@@ -267,7 +329,13 @@ class Palindrome
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec7" data-text="section 7">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to print factorial of a given number?</a>
 			<br><br>
@@ -301,7 +369,13 @@ class Factorial
 		</ul>
 		<br>
 		</li>
-
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>	
+	
+	<section id="sec8" data-text="section 8">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java pragram to print sum of digits in a given number?</a>
 			<br><br>
@@ -338,7 +412,13 @@ public class Sum_of_digits
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec9" data-text="section 9">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to perform sum of n natural numbers upto a given number?</a>
 			<br><br>
@@ -373,7 +453,13 @@ class Sum_of_Natural_numbers
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec10" data-text="section 10">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program that takes 5 numbers as inputs each number between 10 & 100. As each number is read, display it only if it is not a duplicate of any number already read . Display the complete set of unique values  after the user enters each new value?</a>
 			<br><br>
@@ -428,7 +514,13 @@ class Number_Identification
 		</ul>
 		<br>
 		</li>
-
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>	
+	
+	<section id="sec11" data-text="section 11">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to explain static blocks?</a>
 			<br><br>
@@ -479,7 +571,58 @@ class Static_Example
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
+	
+	<section id="sec12" data-text="section 12">
+		<li class="menu">
+			<a style="cursor: pointer;">Write a java program to explain Constructor?</a>
+			<br><br>
+			<ul>
+				<a style="margin-top: 20px;">Program :</a>
+				<?prettify linenums=01?>
+				<pre class="prettyprint" style="margin-top:15px;align:left;">
+import java.io.*;
+import java.util.*;
+class Constructor_Demo
+{
+	int value1 , value2;
+	Constructor_Demo()
+	{
+		value1 = 10;
+		value2 = 20;
+		System.out.println("Inside Constructor");
+	}
+	public void display()
+	{
+		System.out.println("value1 =="+value1);
+		System.out.println("value2 =="+value2);
+	}
+	public static void main(String a[])
+	{
+		Constructor_Demo c = new Constructor_Demo();
+		c.display();
+	}
+}						
+				</pre>
+		</ul>
+			<ul>
+			<a>Output :</a>
+			<br>
+			<img src="12.1/o12.1.png" style="margin-top: 10px;"></img>
+		</ul>
+		<br>
+		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec13" data-text="section 13">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to explain about constructor overload?</a>
 			<br><br>
@@ -528,7 +671,13 @@ class Constructor_Demo
 		</ul>
 		<br>
 		</li>
-
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
+	
+	<section id="sec14" data-text="section 14">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to explain about method overloading?</a>
 			<br><br>
@@ -576,7 +725,13 @@ class Method_Overloading
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec15" data-text="section 15">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to perform matrix multiplication?</a>
 			<br><br>
@@ -678,7 +833,13 @@ class Matrix_Multiplication
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec16" data-text="section 16">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to perform inheritance?</a>
 			<br><br>
@@ -740,7 +901,13 @@ class Inheritance_Demo
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec17" data-text="section 17">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to create a super class called figure, that receives the dimensions of 2 dimentional objects .It also ddefines a method called Area . That computes the area of an  object. The program derives 2 subclasses from figure. The first is rectangle and second is Triangle. Each of the subclasses override area method, so that, it returns the area of a rectangle and triangle respectively?</a>
 			<br><br>
@@ -800,7 +967,13 @@ class Abstract_Demo
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec18" data-text="section 18">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to perform push, pop, display operations on a stack?</a>
 			<br><br>
@@ -894,7 +1067,13 @@ class ST
 		</ul>
 		<br>
 		</li>
+	<div class="rs">
+	<a href="#sec0">&nbsp;<i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;&nbsp;Back to the PROGRAM LIST&nbsp;</a>
+	</div>
+	</section>
+	<br>
 
+	<section id="sec19" data-text="section 19">
 		<li class="menu">
 			<a style="cursor: pointer;">Write a java program to perform factorial of a number using recursion?</a>
 			<br><br>
@@ -934,46 +1113,6 @@ class FCR
 		</ul>
 		<br>
 		</li>
-
-		<li class="menu">
-			<article style="color: red;font-size: 18px;">/*New program is Added in the record , After Static Blocks program i.e, After 11th program*/</article>
-			<a style="cursor: pointer;">Write a java program to explain Constructor?</a>
-			<br><br>
-			<ul>
-				<a style="margin-top: 20px;">Program :</a>
-				<?prettify linenums=01?>
-				<pre class="prettyprint" style="margin-top:15px;align:left;">
-import java.io.*;
-import java.util.*;
-class Constructor_Demo
-{
-	int value1 , value2;
-	Constructor_Demo()
-	{
-		value1 = 10;
-		value2 = 20;
-		System.out.println("Inside Constructor");
-	}
-	public void display()
-	{
-		System.out.println("value1 =="+value1);
-		System.out.println("value2 =="+value2);
-	}
-	public static void main(String a[])
-	{
-		Constructor_Demo c = new Constructor_Demo();
-		c.display();
-	}
-}						
-				</pre>
-		</ul>
-			<ul>
-			<a>Output :</a>
-			<br>
-			<img src="12.1/o12.1.png" style="margin-top: 10px;"></img>
-		</ul>
-		<br>
-		</li>		
 	</ol>
 		</frame>
 	</div>

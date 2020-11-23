@@ -1,10 +1,112 @@
+html
+{
+    scroll-behavior: auto;
+    /*auto|smooth|initial|inherit;*/
+}
 body
 {
     background-color: #ccc;
-    margin:auto;
-
 }
 img
 {
     width:85%;
+}
+header .h1
+{
+    color: 2px solid blue;
+    display: content;
+    width:90%;
+    background-color: 2px solid yellow;
+}
+section :nth-child(0)
+{
+   /* background: black;*/
+    position: relative;
+    color: white;
+    font-color:white;
+    justify-content: center;
+    font:bold;
+    font-weight: bold;
+    font-size: 22px;
+    align-items: center;
+}
+.header section
+{   position: relative;
+    color: white;
+    font-color:white;
+    justify-content: center;
+    font:bold;
+    font-weight: bold;
+    font-size: 22px;   
+}
+.header
+{
+    background-color: black;
+}
+header ul li
+{
+    list-style: none;
+}
+.header ul li a
+{
+    position: relative;
+    display: inline-block;
+    font-family: serif;
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #fff;
+    border-left:2px solid #2196f3;
+}
+.header ul li a:hover
+{   left:8px;
+    color:#219;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+    font-weight: inherit;
+    font-size: 18px;
+    /*background: #2196f3;*/
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-bottom:  2px solid #219;
+    border-left: 4px solid #219;
+}
+.rs a
+{   
+    position: relative;
+    color:  #111;
+    background: yellow;
+    box-shadow: 0 0 10px #FFD700, 0 0 10px black, 0 0 20px #FFFF00;
+    line-height: 50px;
+    font-weight: bold;
+    justify-content: center;
+    display:ruby-text;
+    padding-bottom: 8px;
+    padding-left:15px;
+    padding-right:35px;
+    padding-top: 8px;
+    margin-left: 45px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.rs a:hover
+{
+    background: black;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    justify-content: space-around;
+    color: yellow;
+    box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 40px #FFFF00;
 }
