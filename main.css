@@ -30,6 +30,15 @@ section :nth-child(0)
     font-size: 22px;
     align-items: center;
 }
+/*section:nth-child(odd)
+{
+    background :#ccc;
+}
+section:nth-child(even)
+{
+    color: rgb(2,0,36);
+     background-color: linear-gradient(rgb(2,0,36),blue);
+}*/
 .header section
 {   position: relative;
     color: white;
@@ -47,6 +56,80 @@ header ul li
 {
     list-style: none;
 }
+/*.header ul li a
+{
+        position: relative;
+    display: inline-block;
+
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #fff;
+    border-left: 2px solid #24ff0b;
+}
+.header ul li a:hover
+{   
+    left:8px;
+    color:  #111;
+
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+    box-shadow: 0 0 10px #21ebff, 0 0 40px #21ebff, 0 0 80px #2196f3;
+    font-weight: bold;
+    font-size: 17px;
+    border-bottom:  2px solid black;
+    border-left: 4px solid black;
+}*/
+/*.rs a
+{
+
+    position: relative;
+    display: inline-block;
+
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-bottom: 5px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #fff;
+    border-left: 2px solid #24ff0b;
+    }/*
+.rs a   //blue
+{
+    position: relative;
+    display: inline-block;
+    font-family: serif;
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #fff;
+    border-left:2px solid #2196f3;
+}*/
 .header ul li a
 {
     position: relative;
@@ -110,3 +193,82 @@ background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     color: yellow;
     box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 40px #FFFF00;
 }
+/*.rs a:hover
+{
+    left:8px;
+    color:  #111;
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+
+    box-shadow: 0 0 10px #21ebff, 0 0 40px #21ebff, 0 0 80px #2196f3;
+    font-weight: bold;
+    font-size: 17px;
+    border-bottom:  2px solid black;
+    border-left: 4px solid black;    
+}*/
+/*
+.rs a:hover // blue
+{   left:8px;
+    color:#219;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+
+
+    font-weight: inherit;
+    font-size: 18px;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-bottom:  2px solid #219;
+    border-left: 4px solid #219;
+}*/
+/*
+ol
+{
+  position: relative;
+    display: inline-block;
+    left:35px;
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 2px;
+    margin-top: 2px; 
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 14px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 10px;
+    color: #fff;
+    border-left:2px solid #2196f3;
+}*/
+/*
+.rs .a
+{
+    position: absolute;
+    display: inline-block;
+    padding: 5px 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px; 
+    color: #2196f3;
+    left: 9%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 22px; 
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 15px;
+    margin-top: 25%;
+    animation: slideme .7s ease-in-out;
+}
+.rs .a:hover
+{
+    color:  #111;
+    background: #21ebff;
+    box-shadow: 0 0 10px #21ebff, 0 0 40px #21ebff, 0 0 80px #2196f3;
+    filter: hue-rotate(270deg);
+}*/
